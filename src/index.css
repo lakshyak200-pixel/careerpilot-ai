@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm Orange / Amber Brand Accent (Manhwa18 Dark Mode Theme) */
+  --color-brand-50: #fff7ed;
+  --color-brand-100: #ffedd5;
+  --color-brand-200: #fed7aa;
+  --color-brand-300: #fdba74;
+  --color-brand-400: #fb923c;
+  --color-brand-500: #ff8c00;
+  --color-brand-600: #ea580c;
+  --color-brand-700: #c2410c;
+  --color-brand-800: #9a3412;
+  --color-brand-900: #7c2d12;
+  --color-brand-950: #431407;
+
+  /* Dark Charcoal & Slate Palette */
+  --color-navy-50: #262626;
+  --color-navy-100: #202020;
+  --color-navy-200: #303030;
+  --color-navy-300: #52525b;
+  --color-navy-400: #71717a;
+  --color-navy-500: #a1a1aa;
+  --color-navy-600: #d4d4d8;
+  --color-navy-700: #e4e4e7;
+  --color-navy-800: #f4f4f5;
+  --color-navy-900: #fafafa;
+  --color-navy-950: #ffffff;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    color-scheme: dark;
+    background-color: #121212;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Sleek Dark Scrollbar */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #141414;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff8c00;
+  }
+}
+
+/* Custom Utilities for Manhwa18 Content Discovery Look */
+.dark-card {
+  background-color: #202020;
+  border: 1px solid #303030;
+  border-radius: 0.75rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark-card:hover {
+  background-color: #242424;
+  border-color: rgba(255, 140, 0, 0.4);
+  box-shadow: 0 4px 20px rgba(255, 140, 0, 0.08);
+}
+
+.orange-glow {
+  box-shadow: 0 0 25px rgba(255, 140, 0, 0.25);
+}
+
+.orange-badge {
+  background-color: rgba(255, 140, 0, 0.12);
+  color: #ff8c00;
+  border: 1px solid rgba(255, 140, 0, 0.3);
+}

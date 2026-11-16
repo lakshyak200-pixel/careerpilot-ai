@@ -1,0 +1,83 @@
+{
+    "Software Engineer": [
+        "Java",
+        "Python",
+        "OOP",
+        "Data Structures",
+        "Algorithms",
+        "Git",
+        "SQL",
+        "REST APIs",
+        "Unit Testing",
+        "Debugging",
+        "Docker",
+        "System Design"
+    ],
+    "Data Scientist": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Statistics",
+        "Pandas",
+        "NumPy",
+        "Data Visualization",
+        "Scikit-learn"
+    ],
+    "Data Analyst": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Statistics",
+        "Pandas",
+        "Data Visualization"
+    ],
+    "ML Engineer": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Docker",
+        "Git",
+        "FastAPI"
+    ],
+    "Frontend Developer": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Git",
+        "REST APIs"
+    ],
+    "Backend Developer": [
+        "Python",
+        "SQL",
+        "FastAPI",
+        "REST APIs",
+        "PostgreSQL",
+        "Git",
+        "Docker"
+    ],
+    "Java Developer": [
+        "Java",
+        "OOP",
+        "Data Structures",
+        "Algorithms",
+        "SQL",
+        "Spring Boot",
+        "Git",
+        "Unit Testing"
+    ],
+    "Full Stack Developer": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "SQL",
+        "Git",
+        "REST APIs",
+        "Docker"
+    ]
+}

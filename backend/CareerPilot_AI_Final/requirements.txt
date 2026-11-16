@@ -1,0 +1,11 @@
+transformers==4.51.3
+peft==0.15.2
+accelerate==1.6.0
+spacy==3.8.18
+pymupdf==2.1
+pytesseract==0.3.13
+safetensors==0.8.0
+torch
+fastapi
+uvicorn
+python-multipart

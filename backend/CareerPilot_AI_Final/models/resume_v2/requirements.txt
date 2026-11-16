@@ -1,0 +1,7 @@
+spacy==3.8.18
+pymupdf==2.1
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+requests
